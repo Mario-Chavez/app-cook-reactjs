@@ -3,16 +3,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Spinner } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import TituloDeBusqueda from "./components/TituloDeBusqueda";
+import Footer from "./components/common/Footer";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Inicio from "./views/Inicio";
+import Menu from "./components/common/Menu";
 
 function App() {
     return (
         <>
-            <Container className="my-5 mainPage">
-                <TituloDeBusqueda titulo="soy el titulo principal" />
-            </Container>
-            <footer className="bg-dark text-light text-center py-5">
-                <p> &copy; Todos los derechos reservados</p>
-            </footer>
+            <BrowserRouter>
+                <Menu />
+                <Routes>
+                    <Route exact path="/" element={<Inicio />}></Route>
+                </Routes>
+
+                <Footer />
+            </BrowserRouter>
         </>
     );
 }
