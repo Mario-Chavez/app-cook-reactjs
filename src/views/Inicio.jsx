@@ -6,7 +6,7 @@ const Inicio = () => {
     return (
         <>
             <Container className="my-5 mainPage">
-                <TituloDeBusqueda titulo="soy el " />
+                <TituloDeBusqueda titulo="Soy  inicio " />
             </Container>
         </>
     );
