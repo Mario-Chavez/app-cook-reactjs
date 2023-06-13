@@ -1,38 +1,58 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Container, Navbar, Nav, Button } from "react-bootstrap";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
-const Menu = () => {
+const Menu = ({ usuarioLogeado, setUsuarioLogeado }) => {
+    const navegacion = useNavigate();
+
+    const logOut = () => {
+        sessionStorage.removeItem("usuario");
+        /* seguir aqui */
+        setUsuarioLogeado({});
+        navegacion("/");
+    };
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">
-                                Something
-                            </NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
-                                Separated link
-                            </NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link>
+        <Navbar bg="dark" variant="dark" expand="lg">
+            <Container fluid>
+                <Navbar.Brand as={Link} to={"/"}>
+                    Logo de la app
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse id="navbarScroll">
+                    <Nav
+                        className="me-auto my-2 my-lg-0"
+                        style={{ maxHeight: "100px" }}
+                        navbarScroll
+                    ></Nav>
+                    <Nav
+                        className="me-0 my-2 my-lg-0"
+                        style={{ maxHeight: "100px" }}
+                        navbarScroll
+                    >
+                        <NavLink end className={"nav-item nav-link"} to={"/"}>
+                            Inicio
+                        </NavLink>
+                        <NavLink end className={"nav-item nav-link"} to={"/registro"}>
+                            Registro
+                        </NavLink>
+                        {usuarioLogeado.email ? (
+                            <>
+                                <NavLink
+                                    end
+                                    className={"nav-item nav-link"}
+                                    to={"/administrador"}
+                                >
+                                    Administrador
+                                </NavLink>
+                                <Button variant="dark" onClick={logOut}>
+                                    Logout
+                                </Button>
+                            </>
+                        ) : (
+                            <NavLink end className={"nav-item nav-link"} to={"/login"}>
+                                Login
+                            </NavLink>
+                        )}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

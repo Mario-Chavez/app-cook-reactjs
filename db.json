@@ -1,0 +1,21 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "nombreReceta": "Locro",
+      "categoria": "Platos regionales",
+      "ingredientes":"sal , comino, carnes, porotods, maiz",
+      "descripcion": "debe ser cocinado a fuego lento por horas",
+      "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg"
+    }
+    
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombreUsuario": "admin",
+      "email": "admin@gmail.com",
+      "password": "A12345i"
+    }
+  ]
+}
