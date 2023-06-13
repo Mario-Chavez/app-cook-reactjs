@@ -1,14 +1,13 @@
-# Proyecto de Consumo de API de Noticias en ReactJs
+# Proyecto de APP recetas de cocina en ReactJs
 
 Este proyecto es una página web que consume una API de noticias y muestra las noticias en tarjetas en la pantalla. Utiliza tecnologías como React.js, React Bootstrap y Bootstrap para el desarrollo de la interfaz de usuario.
 
 ## Características
 
--   Consume una API de noticias para obtener los datos de las noticias.
--   Tiene una barra de busqueda para buscar por categoria de noticias.
+-   Consume una API de jsonServer para obtener los datos de las recetas.
 -   Muestra las noticias en tarjetas (cards) en la pantalla.
--   Cada tarjeta muestra el título, descripción y una imagen de la noticia.
--   Permite hacer clic en una tarjeta para ver más detalles de la noticia.
+-   Cada tarjeta muestra el título, descripción y una imagen de la receta.
+-   Permite hacer clic en una tarjeta para ver más detalles de la receta.
 
 ## Requisitos previos
 
