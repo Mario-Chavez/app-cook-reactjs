@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import TituloDeBusqueda from "../components/TituloDeBusqueda";
+import Titulo from "../components/Titulo";
 
 const Inicio = () => {
     return (
         <>
             <Container className="my-5 mainPage">
-                <TituloDeBusqueda titulo="Soy  inicio " />
+                <Titulo titulo="Soy  inicio " />
             </Container>
         </>
     );

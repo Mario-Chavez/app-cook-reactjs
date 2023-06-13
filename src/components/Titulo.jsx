@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-const TituloDeBusqueda = ({ titulo }) => {
+
+const Titulo = ({ titulo }) => {
     return (
         <Container className="container my-5">
             <Row className="p-4 text-center">
@@ -12,4 +13,4 @@ const TituloDeBusqueda = ({ titulo }) => {
     );
 };
 
-export default TituloDeBusqueda;
+export default Titulo;
