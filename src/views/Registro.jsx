@@ -1,16 +1,29 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
+import { signUp } from "../helpers/queries";
+import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 
-const Registro = () => {
+const Registro = ({ setUsuarioLogeado }) => {
+    const navegacion = useNavigate();
     const {
         register,
         handleSubmit,
         formState: { errors },
     } = useForm();
 
-    const onSubmit = (data) => {
-        // console.log(" de registro", data);
+    const onSubmit = (nuevoUsuario) => {
+        signUp(nuevoUsuario).then((resp) => {
+            if (resp) {
+                sessionStorage.setItem("usuario", JSON.stringify(resp));
+                setUsuarioLogeado(resp);
+                Swal.fire("Bienvenido", "Te registraste corectamente", "success");
+                navegacion("/administrador");
+            } else {
+                Swal.fire("Error", "Intentelo en breve coneccion inestable", "error");
+            }
+        });
     };
     return (
         <div className="mt-5 mainSection mainPage">
@@ -23,17 +36,17 @@ const Registro = () => {
                             <Form.Control
                                 type="text"
                                 placeholder="Ingrese un nombre de usuario"
-                                {...register("nombre", {
+                                {...register("nombreUsuario", {
                                     required: "Este campo es obligatorio",
                                     minLength: {
-                                        value: 6,
+                                        value: 2,
                                         message:
-                                            "La contraseña debe tener al menos 6 caracteres",
+                                            "El nombre debe tener al menos 6 caracteres",
                                     },
                                     maxLength: {
                                         value: 20,
                                         message:
-                                            "La contraseña debe tener como maximo 20 caracteres",
+                                            "El nombre  debe tener como maximo 20 caracteres",
                                     },
                                     pattern: {
                                         value: /^(?!\s)(.*\S)$/,

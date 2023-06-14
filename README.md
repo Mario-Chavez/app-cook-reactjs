@@ -9,6 +9,10 @@ Este proyecto es una página web que consume una API de noticias y muestra las n
 -   Cada tarjeta muestra el título, descripción y una imagen de la receta.
 -   Permite hacer clic en una tarjeta para ver más detalles de la receta.
 
+## comando para ejecutar json server
+
+json-server --watch db.json --port 3004
+
 ## Requisitos previos
 
 Asegúrate de tener instalado lo siguiente en tu sistema:

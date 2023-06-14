@@ -32,9 +32,6 @@ const Menu = ({ usuarioLogeado, setUsuarioLogeado }) => {
                         <NavLink end className={"nav-item nav-link"} to={"/"}>
                             Inicio
                         </NavLink>
-                        <NavLink end className={"nav-item nav-link"} to={"/registro"}>
-                            Registro
-                        </NavLink>
                         {usuarioLogeado.email ? (
                             <>
                                 <NavLink
@@ -49,9 +46,23 @@ const Menu = ({ usuarioLogeado, setUsuarioLogeado }) => {
                                 </Button>
                             </>
                         ) : (
-                            <NavLink end className={"nav-item nav-link"} to={"/login"}>
-                                Login
-                            </NavLink>
+                            <>
+                                {" "}
+                                <NavLink
+                                    end
+                                    className={"nav-item nav-link"}
+                                    to={"/registro"}
+                                >
+                                    Registro
+                                </NavLink>
+                                <NavLink
+                                    end
+                                    className={"nav-item nav-link"}
+                                    to={"/login"}
+                                >
+                                    Login
+                                </NavLink>
+                            </>
                         )}
                     </Nav>
                 </Navbar.Collapse>

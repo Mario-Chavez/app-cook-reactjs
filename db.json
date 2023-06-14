@@ -4,11 +4,10 @@
       "id": 1,
       "nombreReceta": "Locro",
       "categoria": "Platos regionales",
-      "ingredientes":"sal , comino, carnes, porotods, maiz",
+      "ingredientes": "sal , comino, carnes, porotods, maiz",
       "descripcion": "debe ser cocinado a fuego lento por horas",
       "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg"
     }
-    
   ],
   "usuarios": [
     {
@@ -16,6 +15,48 @@
       "nombreUsuario": "admin",
       "email": "admin@gmail.com",
       "password": "A12345i"
+    },
+    {
+      "nombreUsuario": "mario",
+      "email": "mario@gmail.com",
+      "password": "A1mario",
+      "id": 2
+    },
+    {
+      "nombreUsuario": "Ana Rocha",
+      "email": "anarocha1@gmail.com",
+      "password": "A1anarocha",
+      "id": 3
+    },
+    {
+      "nombreUsuario": "Ana Rocha",
+      "email": "anarocha1@gmail.com",
+      "password": "A1anarocha",
+      "id": 4
+    },
+    {
+      "nombreUsuario": "tadeo muñoz",
+      "email": "tadeomunoz@gmail.com",
+      "password": "A1tadeo",
+      "id": 5
+    },
+    {
+      "nombreUsuario": "tadeo muñoz",
+      "email": "tadeomunoz@gmail.com",
+      "password": "A1tadeo",
+      "id": 6
+    },
+    {
+      "nombreUsuario": "mario alberto chavez",
+      "email": "mariochavez2@gmail.com",
+      "password": "A1chavez2",
+      "id": 7
+    },
+    {
+      "nombreUsuario": "pepe argento",
+      "email": "pepe@gmail.com",
+      "password": "A1pepe",
+      "id": 8
     }
   ]
 }
