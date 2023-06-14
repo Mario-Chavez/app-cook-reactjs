@@ -7,7 +7,7 @@ const PrimerCarrusel = () => {
       <Carousel>
         <Carousel.Item interval={4000}>
           <img
-            className="d-block w-100 img-responsive"
+            className="d-block w-100 img-responsive p-1"
             src="https://www.paulinacocina.net/wp-content/uploads/2020/06/screen-shot-2020-06-09-at-18.25.49.jpg"
             alt="Salsa blanca"
           />
@@ -17,7 +17,7 @@ const PrimerCarrusel = () => {
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img
-            className="d-block w-100 img-responsive"
+            className="d-block w-100 img-responsive p-1"
             src="https://www.paulinacocina.net/wp-content/uploads/2017/04/video-3.jpg"
             alt="Pizza"
           />
@@ -27,7 +27,7 @@ const PrimerCarrusel = () => {
         </Carousel.Item>
         <Carousel.Item interval={4000}>
           <img
-            className="d-block w-100 img-responsive"
+            className="d-block w-100 img-responsive p-1"
             src="https://www.paulinacocina.net/wp-content/uploads/2022/03/pollo-relleno-al-horno-800x553.jpg"
             alt="Pollo Relleno al Horno"
           />

@@ -21,9 +21,12 @@
 background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba(217,244,210,1) 100%);
  }
 
- .banner{
-  background-color:rgb(255, 127, 80) ;
+ .featured-color{
+
+  background: #163D30;
  }
+
+
 
 
 

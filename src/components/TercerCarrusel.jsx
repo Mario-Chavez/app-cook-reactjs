@@ -7,7 +7,7 @@ const TercerCarrusel = () => {
       <Carousel>
         <Carousel.Item interval={5500}>
           <img
-            className="d-block w-100 carousel-responsive"
+            className="d-block w-100 carousel-responsive p-1"
             src="https://assets.elgourmet.com/wp-content/uploads/2023/03/oquis_sxFVpXTYgG193l7QSRezPdWybENjrc-1024x683.png.webp"
             alt="Ñoquis"
           />
@@ -17,7 +17,7 @@ const TercerCarrusel = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="d-block w-100 carousel-responsive"
+            className="d-block w-100 carousel-responsive p-1"
             src="https://assets.elgourmet.com/wp-content/uploads/2023/03/cover_fpa6sn8vqc_empanadas-1024x683.jpg.webp"
             alt="Empanadas"
           />
@@ -27,7 +27,7 @@ const TercerCarrusel = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="d-block w-100 carousel-responsive"
+            className="d-block w-100 carousel-responsive p-1"
             src="https://assets.elgourmet.com/wp-content/uploads/2023/06/shutterstock_636498131-1-1024x680.jpg.webp"
             alt="Tarta de queso"
           />

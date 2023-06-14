@@ -4,13 +4,14 @@ import Titulo from "../components/Titulo";
 import PrimerCarrusel from "../components/PrimerCarrusel";
 import SegundoCarrusel from "../components/SegundoCarrusel";
 import TercerCarrusel from "../components/TercerCarrusel";
+import CardReceta from "./recetas/CardReceta";
 
 const Inicio = () => {
   return (
     <>
       <Container className="mainPage">
       <Titulo titulo="Recetas de cocina fáciles y caseras" />
-        <Row className="p-4 banner mb-3">
+        <Row className="p-4 featured-color mb-3">
           <Col sm={7} md={8} className="px-0">
             <PrimerCarrusel></PrimerCarrusel>
           </Col>
@@ -25,6 +26,15 @@ const Inicio = () => {
             </Row>
           </Col>
         </Row>
+
+        <h4 className="my-4">RECETAS</h4>
+        <Row>
+            <CardReceta></CardReceta>
+            <CardReceta></CardReceta>
+            <CardReceta></CardReceta>
+            <CardReceta></CardReceta>
+        </Row>
+
       </Container>
     </>
   );
