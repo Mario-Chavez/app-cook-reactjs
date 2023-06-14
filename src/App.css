@@ -20,3 +20,45 @@
   background: rgb(195,226,28);
 background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba(217,244,210,1) 100%);
  }
+
+ .banner{
+  background-color:rgb(255, 127, 80) ;
+ }
+
+
+
+ @media all and (max-width: 575px){
+  .img-responsive{
+    height: 250px;
+    object-fit: cover;
+   }
+   .carousel-responsive{
+    height: 250px;
+    object-fit: cover;
+   }
+
+}
+@media all and (min-width: 575px)and (max-width: 900px){
+  .img-responsive{
+    height: 270px;
+    object-fit: cover;
+  }
+  .carousel-responsive{
+    height: 135px;
+    object-fit: cover;
+   }
+
+
+}
+
+
+@media all and (min-width: 768px){
+  .img-responsive{
+    height: 350px;
+    object-fit: cover;
+   }
+   .carousel-responsive{
+    height: 175px;
+    object-fit: cover;
+   }
+} 
