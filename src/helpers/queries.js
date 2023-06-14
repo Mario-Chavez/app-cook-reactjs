@@ -5,57 +5,89 @@ const URL_RECETAS = import.meta.env.VITE_API_RECETA;
 export const login = async (usuario) => {
     try {
         const respuesta = await fetch(URL_USUARIO);
-        const listaUsuarios = await respuesta.json();
 
-        // buscar si la lista de usuario hay un elelmento igual al q recibimos en ususario
+        const listaUsuarios = await respuesta.json();
         const ususarioBuscado = listaUsuarios.find(
             (itemUsuario) => itemUsuario.email === usuario.email
         );
         if (ususarioBuscado) {
             if (ususarioBuscado.password === usuario.password) {
-                console.log("encontardo el usuario");
                 return usuario;
             }
-            console.log("no es el mismo password");
+            throw new Error("Contraseña incorrecta");
         }
-        console.log("email no encontrado");
-    } catch (error) {}
+        throw new Error("Email no encontrado");
+    } catch (error) {
+        console.log(error);
+    }
+};
+export const signUp = async (usuario) => {
+    try {
+        const respuesta = await fetch(URL_USUARIO, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(usuario),
+        });
+
+        const nuevoUsuario = await respuesta.json();
+        return nuevoUsuario;
+    } catch (error) {
+        console.log(error);
+    }
 };
 
-export const obtenerProductos = async () => {
+export const obtenerRecetas = async () => {
     try {
         const respuesta = await fetch(URL_RECETAS);
-        const productos = await respuesta.json();
-        return productos;
-    } catch (error) {}
+        const recetas = await respuesta.json();
+        return recetas;
+    } catch (error) {
+        console.log(error);
+    }
 };
-export const obtenerUnProductos = async (id) => {
+export const obtenerUnaReceta = async (id) => {
     try {
         const respuesta = await fetch(`${URL_RECETAS}/${id}`);
-        const productoFiltrado = await respuesta.json();
-        return productoFiltrado;
-    } catch (error) {}
+        const recetasFiltrada = await respuesta.json();
+        return recetasFiltrada;
+    } catch (error) {
+        console.log(error);
+    }
 };
-export const deleteProductosApi = async (id) => {
+export const deleteReceta = async (id) => {
     try {
         const respuesta = await fetch(`${URL_RECETAS}/${id}`, {
             method: "DELETE",
         });
         return respuesta;
-        // const productos = await respuesta.json();
-        // return productos;
     } catch (error) {
         console.log(error);
     }
 };
-export const createProductosApi = async (producto) => {
+export const createReceta = async (receta) => {
     try {
         const respuesta = await fetch(URL_RECETAS, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify(producto),
+            body: JSON.stringify(receta),
+        });
+        return respuesta;
+    } catch (error) {
+        console.log(error);
+    }
+};
+export const EditReceta = async (receta, id) => {
+    try {
+        const respuesta = await fetch(URL_RECETAS + "/" + id, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(receta),
         });
         return respuesta;
     } catch (error) {
