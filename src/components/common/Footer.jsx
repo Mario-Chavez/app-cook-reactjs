@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo-cook.png";
 import { Col, Container, Image, Row } from "react-bootstrap";
+import { ArrowRight, Facebook, Instagram, Twitter } from "react-bootstrap-icons";
 
 const Footer = () => {
     return (
@@ -11,21 +12,16 @@ const Footer = () => {
                         <Image src={logo} alt="Logo" rounded className="w-10" />
                     </Col>
                     <Col lg={6}>
-                        <ul className="footer-social-media">
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-facebook"></i>
-                                </a>
+                        <ul className="mt-5">
+                            <li style={{ listStyle: "none" }}>
+                                _ Facebook <Facebook size={40} />
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-twitter"></i>
-                                </a>
+                            <li style={{ listStyle: "none" }}>
+                                _ Twitter <Twitter size={40} />
                             </li>
-                            <li>
-                                <a href="#">
-                                    <i className="fab fa-instagram"></i>
-                                </a>
+                            <li style={{ listStyle: "none" }}>
+                                _ Instagram {""}
+                                <Instagram size={40} />
                             </li>
                             {/* Agrega aquí más enlaces a tus redes sociales */}
                         </ul>
