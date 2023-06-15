@@ -32,6 +32,7 @@ const Login = ({ setUsuarioLogeado }) => {
     return (
         <Container className="mainPage mainLogin">
             <Card className="my-5 formLogin">
+                <h3 className="text-center display-6">Login</h3> 
                 <Card.Body>
                     <Form onSubmit={handleSubmit(onSubmit)}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">

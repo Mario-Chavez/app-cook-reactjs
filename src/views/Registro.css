@@ -1,0 +1,28 @@
+@media all and (min-width: 320px){
+    .mainRegistro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorRegistro{
+        background-color: white;
+        width: 90%;
+        padding: 1rem;
+        border: 1px solid rgb(218, 218, 218);
+        margin: 3rem 0 3rem 0;
+    }
+    .input{
+        border-radius: 0px;
+        height: 3.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .botonLogin{
+        width: 100%;
+        height: 4rem;
+        border-radius: 0px;
+        margin-top: 2rem;
+    }
+}
+@media all and (min-width: 1024px){
+}
