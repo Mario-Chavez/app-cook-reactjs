@@ -12,7 +12,7 @@ const Footer = () => {
                         <Image src={logo} alt="Logo" rounded className="w-10" />
                     </Col>
                     <Col lg={6}>
-                        <ul className="mt-5">
+                        <ul className="mt-5 py-3">
                             <li style={{ listStyle: "none" }}>
                                 _ Facebook <Facebook size={40} />
                             </li>
