@@ -57,6 +57,12 @@
       "email": "pepe@gmail.com",
       "password": "A1pepe",
       "id": 8
+    },
+    {
+      "nombreUsuario": "Mario chavez",
+      "email": "mariochavez@gmail.com",
+      "password": "A1marito",
+      "id": 9
     }
   ]
 }
