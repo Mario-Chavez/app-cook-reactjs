@@ -30,7 +30,7 @@ const Login = ({ setUsuarioLogeado }) => {
     };
 
     return (
-        <Container className="mainPage">
+        <Container className="mainPage mainLogin">
             <Card className="my-5 formLogin">
                 <Card.Body>
                     <Form onSubmit={handleSubmit(onSubmit)}>

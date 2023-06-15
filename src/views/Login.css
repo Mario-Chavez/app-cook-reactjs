@@ -18,8 +18,24 @@
         text-align: center;
         margin-top: 2rem;
     }
+    .mainLogin{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
 }
 @media all and (min-width: 820px){
-
+    .formLogin{
+        padding: 2rem;
+    }
+}
+@media all and (min-width: 1024px){
+    .formLogin{
+        padding: 2rem;
+        width: 50%;
+    }
+    .mainLogin{
+        align-items: center;
+    }
 }
