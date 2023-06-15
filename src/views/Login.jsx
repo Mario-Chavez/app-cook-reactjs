@@ -3,6 +3,8 @@ import { login } from "../helpers/queries";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import "./Login.css";
+import { Link } from 'react-router-dom';
 
 const Login = ({ setUsuarioLogeado }) => {
     const {
@@ -28,14 +30,12 @@ const Login = ({ setUsuarioLogeado }) => {
     };
 
     return (
-        <Container className="mainSection mainPage">
-            <Card className="my-5">
-                <Card.Header as="h5">Login</Card.Header>
+        <Container className="mainPage">
+            <Card className="my-5 formLogin">
                 <Card.Body>
                     <Form onSubmit={handleSubmit(onSubmit)}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                            <Form.Label>Email</Form.Label>
-                            <Form.Control
+                            <Form.Control className="input"
                                 type="email"
                                 placeholder="Ingrese un email"
                                 {...register("email", {
@@ -52,8 +52,7 @@ const Login = ({ setUsuarioLogeado }) => {
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
-                            <Form.Label>Password</Form.Label>
-                            <Form.Control
+                            <Form.Control className="input"
                                 type="password"
                                 placeholder="Password"
                                 {...register("password", {
@@ -79,10 +78,13 @@ const Login = ({ setUsuarioLogeado }) => {
                                 {errors.password?.message}
                             </Form.Text>
                         </Form.Group>
-                        <Button variant="primary" type="submit">
+                        <Button className="botonLogin" type="submit">
                             Ingresar
                         </Button>
                     </Form>
+                    <Container className="centrarTexto">
+                        <p>No estás registrado? <Link to="/Registro">Registrate!</Link></p>
+                    </Container>
                 </Card.Body>
             </Card>
         </Container>
