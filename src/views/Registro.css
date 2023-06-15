@@ -22,7 +22,13 @@
         height: 4rem;
         border-radius: 0px;
         margin-top: 2rem;
+        background-color: #163D30;
+        border: none;
     }
 }
 @media all and (min-width: 1024px){
+    .contenedorRegistro{
+        width: 40%;
+        padding: 2rem 3rem 2rem 3rem;
+    }
 }
