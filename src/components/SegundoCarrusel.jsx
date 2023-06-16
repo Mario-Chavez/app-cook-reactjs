@@ -5,7 +5,7 @@ const PrimerCarrusel = () => {
   return (
     <div>
       <Carousel>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={7000}>
           <img
             className="d-block w-100 carousel-responsive p-1"
             src="https://www.paulinacocina.net/wp-content/uploads/2023/03/flan-de-coco-4.jpg"
@@ -16,7 +16,7 @@ const PrimerCarrusel = () => {
 
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={7000}>
           <img
             className="d-block w-100 carousel-responsive p-1"
             src="https://www.paulinacocina.net/wp-content/uploads/2023/02/pay-de-limon.jpg"
@@ -27,7 +27,7 @@ const PrimerCarrusel = () => {
 
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item interval={5000}>
+        <Carousel.Item interval={7000}>
           <img
             className="d-block w-100 carousel-responsive p-1"
             src="https://www.paulinacocina.net/wp-content/uploads/2022/05/receta-de-tarta-de-durazno.jpg"

@@ -10,8 +10,8 @@ const Inicio = () => {
   return (
     <>
       <Container className="mainPage">
-      <Titulo titulo="Recetas de cocina fáciles y caseras" />
-        <Row className="p-4 featured-color mb-3">
+        <Row className="p-4 featured-color mb-3 mt-sm-2">
+        <Titulo titulo="Recetas de cocina fáciles y caseras" />
           <Col sm={7} md={8} className="px-0">
             <PrimerCarrusel></PrimerCarrusel>
           </Col>

@@ -34,7 +34,22 @@ background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba
  .border{
   --bs-border-color: #163D30;
  }
-
+ hr{
+  --bs-border-width: 2px;
+ }
+ .carousel-control-next-icon {
+  background-image: none!important;
+}
+.carousel-control-prev-icon {
+  background-image: none!important;
+}
+ .carousel-indicators [data-bs-target] {
+  width: 0!important;
+  z-index: 0!important;
+ }
+ .carousel-caption {
+  padding-bottom: 0!important;
+ }
 
 
  @media all and (max-width: 575px){
