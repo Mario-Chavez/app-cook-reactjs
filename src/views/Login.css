@@ -1,0 +1,43 @@
+@media all and (min-width: 320px){
+    .formLogin{
+        border-radius: 0px;
+        padding-top: 2rem;
+    }
+    .botonLogin{
+        width: 100%;
+        height: 4rem;
+        border-radius: 0px;
+        margin-top: 2rem;
+        background-color: #163D30;
+        border: none;
+    }
+    .input{
+        border-radius: 0px;
+        height: 3.5rem;
+    }
+
+    .centrarTexto{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .mainLogin{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+@media all and (min-width: 820px){
+    .formLogin{
+        padding: 2rem;
+    }
+}
+@media all and (min-width: 1024px){
+    .formLogin{
+        padding: 2rem;
+        width: 50%;
+    }
+    .mainLogin{
+        align-items: center;
+    }
+}
