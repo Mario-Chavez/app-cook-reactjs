@@ -9,6 +9,7 @@ import Registro from "./views/Registro";
 import RutasProtegidas from "./components/routes/RutasProtegidas";
 import RutasAdministardor from "./components/routes/RutasAdministardor";
 import Login from "./views/Login";
+import Detalle from "./views/Detalle";
 import Error404 from "./views/Error404";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
                             </RutasProtegidas>
                         }
                     ></Route>
+                    <Route exact path="/detalle" element={<Detalle></Detalle>}></Route>
                     <Route
                         exact
                         path="/login"
