@@ -31,6 +31,9 @@ background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba
   height: 300px;
   object-fit: cover;
  }
+ .border{
+  --bs-border-color: #163D30;
+ }
 
 
 
