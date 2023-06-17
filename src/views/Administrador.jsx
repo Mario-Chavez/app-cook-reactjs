@@ -3,15 +3,22 @@ import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { obtenerRecetas } from "../helpers/queries";
 import ItemReceta from "./recetas/ItemReceta";
+import Swal from "sweetalert2";
 
 const Administrador = () => {
     const [recetas, setRecetas] = useState([]);
 
     useEffect(() => {
         obtenerRecetas().then((respuesta) => {
-            console.log(respuesta);
-            setRecetas(respuesta);
-            // todo: resolvcer el error si lo huibiera en coneccion en API
+            if (respuesta) {
+                setRecetas(respuesta);
+            } else {
+                Swal.fire(
+                    "Se produjo un error !",
+                    `Intentele realizar esta operacion  mas tarde.`,
+                    "error"
+                );
+            }
         });
     }, []);
 
@@ -40,7 +47,7 @@ const Administrador = () => {
                             <th scope="col">Nombre Receta</th>
                             <th scope="col">categoria</th>
                             <th scope="col">Ingredientes</th>
-                            <th scope="col">Descripcion</th>
+                            <th scope="col">Preparación</th>
                             <th scope="col">Opciones</th>
                         </tr>
                     </thead>

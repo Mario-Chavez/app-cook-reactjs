@@ -5,8 +5,27 @@
       "nombreReceta": "Locro",
       "categoria": "Platos regionales",
       "ingredientes": "sal , comino, carnes, porotods, maiz",
-      "descripcion": "debe ser cocinado a fuego lento por horas",
+      "preparación": "se debe poner las verduras un dia antes ",
+      "pasos": "debe ser cocinado a fuego lento por horas",
       "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg"
+    },
+    {
+      "nombreReceta": "asado",
+      "categoria": "carnes",
+      "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2023/06/asado.jpg",
+      "ingredientes": "carne y sal",
+      "preparación": "Se debe salar la carne unas horas antes de comenzar ",
+      "pasos": "se hace el fuego con carbon o leña en su defecro , se pone la carne y se la da vuelta cuando este saliendo sangre del lado de arriba",
+      "id": 2
+    },
+    {
+      "nombreReceta": "Empanadas de carne",
+      "categoria": "platosRegionales",
+      "imagen": "https://pics.filmaffinity.com/el_amor_despues_del_amor-583843731-large.jpg",
+      "ingredientes": "carne papa huevo cebolla harina",
+      "preparación": "se pone el harina un un bold con agua y sal",
+      "pasos": "se pone la mezcla dentro de la masa y se hace los repulgues",
+      "id": 3
     }
   ],
   "usuarios": [
