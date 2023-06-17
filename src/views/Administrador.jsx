@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { obtenerRecetas } from "../helpers/queries";
-// import { ItemReceta } from "../views/recetas/ItemReceta";
+import ItemReceta from "./recetas/ItemReceta";
+
 const Administrador = () => {
     const [recetas, setRecetas] = useState([]);
 
@@ -31,27 +32,29 @@ const Administrador = () => {
                 </div>
             </div>
             <hr />
-            <table className="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Codigo</th>
-                        <th scope="col">Nombre Receta</th>
-                        <th scope="col">categoria</th>
-                        <th scope="col">ingredientes</th>
-
-                        <th scope="col">imagen</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {/* {recetas.map((receta) => (
-                        <ItemReceta
-                            key={receta.id}
-                            receta={receta}
-                            setRecetas={setRecetas}
-                        ></ItemReceta>
-                    ))} */}
-                </tbody>
-            </table>
+            <div className="table-responsive-sm">
+                <table className="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Codigo</th>
+                            <th scope="col">Nombre Receta</th>
+                            <th scope="col">categoria</th>
+                            <th scope="col">Ingredientes</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Opciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {recetas.map((receta) => (
+                            <ItemReceta
+                                key={receta.id}
+                                receta={receta}
+                                setRecetas={setRecetas}
+                            ></ItemReceta>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
         </Container>
     );
 };

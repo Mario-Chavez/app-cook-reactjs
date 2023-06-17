@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo-cook.png";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { ArrowRight, Facebook, Instagram, Twitter } from "react-bootstrap-icons";
+import { Facebook, Instagram, Twitter } from "react-bootstrap-icons";
 
 const Footer = () => {
     return (
