@@ -1,13 +1,13 @@
 {
   "recetas": [
     {
-      "id": 1,
       "nombreReceta": "Locro",
-      "categoria": "Platos regionales",
+      "categoria": "carnes",
+      "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg",
       "ingredientes": "sal , comino, carnes, porotods, maiz",
       "preparación": "se debe poner las verduras un dia antes ",
       "pasos": "debe ser cocinado a fuego lento por horas",
-      "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg"
+      "id": 1
     },
     {
       "nombreReceta": "asado",
