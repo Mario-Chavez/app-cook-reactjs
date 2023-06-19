@@ -2,15 +2,15 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/common/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Inicio from "./views/Inicio";
+import Inicio from "./components/views/Inicio";
 import Menu from "./components/common/Menu";
 import { useState } from "react";
-import Registro from "./views/Registro";
+import Registro from "./components/views/Registro";
 import RutasProtegidas from "./components/routes/RutasProtegidas";
 import RutasAdministardor from "./components/routes/RutasAdministardor";
-import Login from "./views/Login";
-import Detalle from "./views/Detalle";
-import Error404 from "./views/Error404";
+import Login from "./components/views/Login";
+import Detalle from "./components/views/Detalle";
+import Error404 from "./components/views/Error404";
 
 function App() {
     const usuarioSessionStorage = JSON.parse(sessionStorage.getItem("usuario")) || {};
