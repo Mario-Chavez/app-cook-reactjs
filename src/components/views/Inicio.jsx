@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Titulo from "../components/Titulo";
-import PrimerCarrusel from "../components/PrimerCarrusel";
-import SegundoCarrusel from "../components/SegundoCarrusel";
-import TercerCarrusel from "../components/TercerCarrusel";
+import Titulo from "../Titulo";
+import PrimerCarrusel from "../PrimerCarrusel";
+import SegundoCarrusel from "../SegundoCarrusel";
+import TercerCarrusel from "../TercerCarrusel";
 import CardReceta from "./recetas/CardReceta";
 
 const Inicio = () => {

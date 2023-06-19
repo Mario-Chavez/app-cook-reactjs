@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Administrador from "../../views/Administrador";
-import CrearReceta from "../../views/recetas/CrearReceta";
-import EditarReceta from "../../views/recetas/EditarReceta";
+import Administrador from "../views/Administrador";
+import CrearReceta from "../views/recetas/CrearReceta";
+import EditarReceta from "../views/recetas/EditarReceta";
 
 const RutasAdministardor = () => {
     return (

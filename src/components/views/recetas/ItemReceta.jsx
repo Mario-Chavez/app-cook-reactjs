@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { PencilFill, Trash } from "react-bootstrap-icons";
-import { deleteReceta, obtenerRecetas } from "../../components/helpers/queries";
+import { deleteReceta, obtenerRecetas } from "../../helpers/queries";
 import Swal from "sweetalert2";
 import "animate.css";
 

@@ -73,6 +73,12 @@
       "email": "mariochavez@gmail.com",
       "password": "A1marito",
       "id": 9
+    },
+    {
+      "nombreUsuario": "anasoledad",
+      "email": "anasoledad@gmail.com",
+      "password": "123Ana",
+      "id": 10
     }
   ]
 }

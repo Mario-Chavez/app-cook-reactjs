@@ -1,6 +1,6 @@
 // llamar vartiable de entorno
 const URL_USUARIO = import.meta.env.VITE_API_USUARIO;
-const URL_RECETAS = import.meta.env.VITE_API_RECETA;
+const URL_RECETAS = import.meta.env.VITE_API_RECETAS;
 
 export const login = async (usuario) => {
     try {
@@ -12,7 +12,7 @@ export const login = async (usuario) => {
         );
         if (ususarioBuscado) {
             if (ususarioBuscado.password === usuario.password) {
-                return usuario;
+                return ususarioBuscado;
             }
             throw new Error("Contraseña incorrecta");
         }
@@ -57,7 +57,6 @@ export const obtenerUnaReceta = async (id) => {
     }
 };
 export const deleteReceta = async (id) => {
-    console.log(id);
     try {
         const respuesta = await fetch(`${URL_RECETAS}/${id}`, {
             method: "DELETE",

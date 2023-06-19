@@ -10,6 +10,7 @@ const Administrador = () => {
 
     useEffect(() => {
         obtenerRecetas().then((respuesta) => {
+            console.log(respuesta)
             if (respuesta) {
                 setRecetas(respuesta);
             } else {
