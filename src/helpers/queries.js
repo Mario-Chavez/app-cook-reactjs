@@ -57,6 +57,7 @@ export const obtenerUnaReceta = async (id) => {
     }
 };
 export const deleteReceta = async (id) => {
+    console.log(id);
     try {
         const respuesta = await fetch(`${URL_RECETAS}/${id}`, {
             method: "DELETE",
