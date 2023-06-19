@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { PencilFill, Trash } from "react-bootstrap-icons";
 import { deleteReceta, obtenerRecetas } from "../../helpers/queries";
 import Swal from "sweetalert2";
+import "animate.css";
 
 const ItemReceta = ({ receta, setRecetas }) => {
     const borrarReceta = () => {
@@ -17,6 +18,12 @@ const ItemReceta = ({ receta, setRecetas }) => {
             cancelButtonColor: "#d33",
             confirmButtonText: "Borrar!",
             cancelButtonText: "Cancelar!",
+            showClass: {
+                popup: "animate__animated animate__fadeInDown",
+            },
+            hideClass: {
+                popup: "animate__animated animate__fadeOutUp",
+            },
         }).then((result) => {
             if (result.isConfirmed) {
                 deleteReceta(receta.id).then((resp) => {
