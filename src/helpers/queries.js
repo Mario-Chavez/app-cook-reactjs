@@ -58,14 +58,14 @@ export const obtenerUnaReceta = async (id) => {
 };
 export const deleteReceta = async (id) => {
     console.log(id);
-    // try {
-    //     const respuesta = await fetch(`${URL_RECETAS}/${id}`, {
-    //         method: "DELETE",
-    //     });
-    //     return respuesta;
-    // } catch (error) {
-    //     console.log(error);
-    // }
+    try {
+        const respuesta = await fetch(`${URL_RECETAS}/${id}`, {
+            method: "DELETE",
+        });
+        return respuesta;
+    } catch (error) {
+        console.log(error);
+    }
 };
 export const createReceta = async (receta) => {
     try {
