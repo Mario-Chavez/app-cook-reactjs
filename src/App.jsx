@@ -37,7 +37,7 @@ function App() {
                             </RutasProtegidas>
                         }
                     ></Route>
-                    <Route exact path="/detalle" element={<Detalle></Detalle>}></Route>
+                    <Route exact path="/detalle/:id" element={<Detalle></Detalle>}></Route>
                     <Route
                         exact
                         path="/login"
