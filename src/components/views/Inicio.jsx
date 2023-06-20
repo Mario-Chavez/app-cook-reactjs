@@ -5,8 +5,27 @@ import PrimerCarrusel from "../PrimerCarrusel";
 import SegundoCarrusel from "../SegundoCarrusel";
 import TercerCarrusel from "../TercerCarrusel";
 import CardReceta from "./recetas/CardReceta";
+import { useEffect, useState } from 'react';
 
 const Inicio = () => {
+
+  const [recetas, setRecetas] = useState([]);
+
+  useEffect(() => {
+    const obtenerRecetas = async () => {
+      try {
+        const respuesta = await fetch('../db.json');
+        const datosRecetas = await respuesta.json();
+        setRecetas(datosRecetas.recetas);
+        console.log(datosRecetas.recetas[0])
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    obtenerRecetas();
+  }, []);
+
   return (
     <>
       <Container className="mainPage">
@@ -28,13 +47,9 @@ const Inicio = () => {
         </Row>
 
         <h4 className="my-4">RECETAS</h4>
-        <Row>
-            <CardReceta></CardReceta>
-            <CardReceta></CardReceta>
-            <CardReceta></CardReceta>
-            <CardReceta></CardReceta>
-        </Row>
-
+        <Container>
+          <CardReceta recetas={recetas}></CardReceta>
+        </Container>
       </Container>
     </>
   );
