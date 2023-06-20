@@ -117,7 +117,7 @@ const CrearReceta = () => {
                     <Form.Label>Ingredientes*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                        rows={3}
                         {...register("ingredientes", {
                             required: "este campo es obligatorio",
                             minLength: {
@@ -141,9 +141,9 @@ const CrearReceta = () => {
                     <Form.Label>Preparación*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                        rows={3}
                         placeholder="Pasos a seguir Ej. Cortar las verduras ..."
-                        {...register("preparación", {
+                        {...register("preparacion", {
                             required: "este campo es obligatorio",
                             minLength: {
                                 value: 8,
@@ -158,7 +158,7 @@ const CrearReceta = () => {
                         })}
                     ></Form.Control>
                     <Form.Text className="text-danger">
-                        {errors.preparación?.message}
+                        {errors.preparacion?.message}
                     </Form.Text>
                 </Form.Group>
 
@@ -166,7 +166,7 @@ const CrearReceta = () => {
                     <Form.Label>Descripción*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                        rows={3}
                         placeholder="Breve descripción de la receta"
                         {...register("descripcion", {
                             required: "este campo es obligatorio",

@@ -21,8 +21,8 @@ const EditarReceta = () => {
                 setValue("categoria", resp.categoria);
                 setValue("imagen", resp.imagen);
                 setValue("ingredientes", resp.ingredientes);
-                setValue("pasos", resp.descripcion);
-                setValue("preparación", resp.preparación);
+                setValue("preparacion", resp.preparacion);
+                setValue("descripcion", resp.descripcion);
             }
         });
     }, []);
@@ -135,7 +135,7 @@ const EditarReceta = () => {
                     <Form.Label>Ingredientes*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                       rows={3}
                         {...register("ingredientes", {
                             required: "este campo es obligatorio",
                             minLength: {
@@ -159,9 +159,9 @@ const EditarReceta = () => {
                     <Form.Label>Preparación*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                       rows={3}
                         placeholder="Pasos a seguir Ej. Cortar las verduras ..."
-                        {...register("preparación", {
+                        {...register("preparacion", {
                             required: "este campo es obligatorio",
                             minLength: {
                                 value: 8,
@@ -176,7 +176,7 @@ const EditarReceta = () => {
                         })}
                     ></Form.Control>
                     <Form.Text className="text-danger">
-                        {errors.preparación?.message}
+                        {errors.preparacion?.message}
                     </Form.Text>
                 </Form.Group>
 
@@ -184,7 +184,7 @@ const EditarReceta = () => {
                     <Form.Label>Descripción*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                       rows={3}
                         placeholder="Breve descripción de la receta"
                         {...register("descripcion", {
                             required: "este campo es obligatorio",

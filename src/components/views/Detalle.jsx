@@ -43,14 +43,19 @@ const Detalle = () => {
     if (!text) {
       return null;
     }
-    const paragraphs = text.split("\n\n");
+    const paragraphs = text.split("\n");
+    console.log('Valor de paragraphs:', paragraphs);
     return (
       <ol>
         {paragraphs.map((paragraph, index) => (
           <li key={index}>{paragraph}</li>
+          
         ))}
+       
       </ol>
+      
     );
+    
   };
 
   return (
@@ -81,6 +86,7 @@ const Detalle = () => {
           <h4 className="pt-3 pb-3">Preparación</h4>
           <div className="pe-0">
           {renderListaOrdenada(receta.preparacion)}
+          
 
           </div>
         </Col>
