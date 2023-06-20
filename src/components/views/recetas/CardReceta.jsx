@@ -8,7 +8,7 @@ const CardReceta = ({ recetas }) => {
     <Row className=" justify-content-center">
       {recetas.map((receta) => (
         <Col md={4} lg={3} key={receta.id} className="my-2">
-          <Card className="rounded-0">
+          <Card className="rounded-0 h-100">
             <Card.Img
               className="rounded-0 card-imagen"
               variant="top"

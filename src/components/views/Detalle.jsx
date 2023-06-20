@@ -61,13 +61,13 @@ const Detalle = () => {
   return (
     <Container>
       <Row className="featured-color my-md-4">
-        <Col md={6} className="px-4 order-1 order-md-0">
+        <Col md={7} lg={6} className="px-4 order-1 order-md-0">
           <h3 className="text-warning mt-3 mt-lg-5 mb-3">{receta.nombreReceta}</h3>
           <p className="text-warning">{receta.descripcion}</p>
         </Col>
-        <Col md={6} className="p-0 order-0 order-md-1">
+        <Col md={5} lg={6} className="p-0 order-0 order-md-1">
           <img
-            className="img-detail h-100"
+            className="img-detail"
             src={receta.imagen}
             alt={receta.nombreReceta}
           />
