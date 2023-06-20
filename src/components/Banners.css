@@ -1,0 +1,29 @@
+@media all and (min-width: 320px){
+    .imagen-redonda{
+        height: 15rem;
+    }
+    .color-banner{
+        background-color: #D9F1E4 ;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    .color-banner-carousel{
+        background-color: #F4A261;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    .mostrar{
+        display: none;
+    }
+}
+@media all and (min-width: 820px){
+    .imagen-redonda{
+        height: 18rem;
+    }
+    .mostrar{
+        display: block;
+    }
+}
+@media all and (min-width: 1024px){
+    .imagen-redonda{
+        width: 23rem;
+    }
+}
