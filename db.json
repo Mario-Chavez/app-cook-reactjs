@@ -17,6 +17,33 @@
       "preparación": "Se debe salar la carne unas horas antes de comenzar ",
       "pasos": "se hace el fuego con carbon o leña en su defecro , se pone la carne y se la da vuelta cuando este saliendo sangre del lado de arriba",
       "id": 2
+    },
+    {
+      "nombreReceta": "tortilla de papa",
+      "categoria": "pastelesyTartas",
+      "imagen": "https://www.cronista.com/files/image/515/515927/6409d0d3e4766.jpg",
+      "ingredientes": "papas, huevo, aceite, sal",
+      "preparación": "batir los huevos y mezclar con la papa cortada",
+      "pasos": "calentar a fuego medio en una zarten",
+      "id": 3
+    },
+    {
+      "nombreReceta": "Milanesa Napolitana",
+      "categoria": "carnes",
+      "imagen": "https://www.196flavors.com/wp-content/uploads/2020/03/milanesa-a-la-napolitana-1.jpeg",
+      "ingredientes": "carne, queso, jamon, pan rallado",
+      "preparación": "pon todo sobre la mesa",
+      "pasos": "pidele a tu mama que lo cocine",
+      "id": 4
+    },
+    {
+      "nombreReceta": "Pizza",
+      "categoria": "pastas",
+      "imagen": "https://www.196flavors.com/wp-content/uploads/2014/06/pizza-2.jpg",
+      "ingredientes": "1 kg de harina de pan\n100 ml de aceite de oliva virgen extra\n3 cucharaditas de levadura seca activa\n5 cucharaditas de sal\n700 ml de agua tibia , aproximadamente",
+      "preparación": "En el bol de un robot de cocina o de una batidora de pie, disolver la levadura en 100 ml de agua tibia (de los 700 ml de agua tibia).",
+      "pasos": "Hornear de 15 a 20 minutos. Servir caliente",
+      "id": 5
     }
   ],
   "usuarios": [
@@ -79,6 +106,12 @@
       "email": "anasoledad@gmail.com",
       "password": "123Ana",
       "id": 10
+    },
+    {
+      "nombreUsuario": "teomunoz99",
+      "email": "teomunoz99@gmail.com",
+      "password": "Tadeo1345",
+      "id": 11
     }
   ]
 }

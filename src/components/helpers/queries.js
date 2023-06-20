@@ -11,7 +11,7 @@ export const login = async (usuario) => {
             (itemUsuario) => itemUsuario.email === usuario.email
         );
         if (usuarioBuscado) {
-            if (ususarioBuscado.password === usuario.password) {
+            if (usuarioBuscado.password === usuario.password) {
                 return usuarioBuscado;
             }
             throw new Error("Contraseña incorrecta");
