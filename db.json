@@ -2,20 +2,20 @@
   "recetas": [
     {
       "nombreReceta": "Locro",
-      "categoria": "carnes",
+      "categoria": "platosRegionales",
       "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg",
-      "ingredientes": "sal , comino, carnes, porotods, maiz",
-      "preparacion": "se debe poner las verduras un dia antes ",
-      "descripcion": "debe ser cocinado a fuego lento por horas",
+      "ingredientes": "500 gramos de maíz blanco partido\n400 gramos de porotos blancos\n500 gramos de carne de cerdo\n500 gramos de carne de vaca\n200 gramos de chorizo\n2 cebollas grandes\n3 dientes de ajo\n2 pimientos rojos\n1 cucharada de pimentón dulce\n1 cucharada de comino molido\nSal al gusto\nPimienta al gusto\nHojas de laurel\nAgua (suficiente para cubrir los ingredientes)",
+      "preparacion": "Remoja los porotos blancos en agua durante al menos 8 horas o durante la noche. Luego, escúrrelos y enjuágalos.\nEn una olla grande, coloca el maíz blanco y los porotos remojados. Cubre con agua abundante y lleva a ebullición. Cocina a fuego medio-alto durante unos 30 minutos hasta que los porotos estén tiernos.\nMientras tanto, corta la carne de cerdo y la carne de vaca en trozos medianos. Pela y pica las cebollas y los dientes de ajo. Corta los pimientos rojos en cubos.\nEn una sartén aparte, cocina el chorizo cortado en rodajas hasta que esté dorado. Retíralo y reserva.\nEn la misma sartén, agrega la carne de cerdo y la carne de vaca. Cocina hasta que se doren por todos lados. Luego, agrega las cebollas, los ajos y los pimientos. Cocina hasta que las cebollas estén transparentes.\nTransfiere la carne y las verduras a la olla grande con el maíz y los porotos. Mezcla bien todos los ingredientes.\nAgrega el pimentón dulce, el comino, sal, pimienta y unas hojas de laurel. Cubre todos los ingredientes con agua hasta que estén completamente sumergidos.\nReduce el fuego a medio-bajo, tapa la olla y deja cocinar el locro durante aproximadamente 2 horas o hasta que los ingredientes se hayan mezclado y formen una textura espesa y sabrosa. Remueve de vez en cuando y agrega más agua si es necesario.\nUna vez listo, retira las hojas de laurel y sirve el locro argentino caliente en platos individuales. Puedes acompañarlo con rodajas de chorizo dorado por encima.",
+      "descripcion": "El locro es un plato lleno de tradición y sabor, perfecto para celebraciones y momentos especiales junto a amigos y familiares. Su textura espesa y sus ingredientes cuidadosamente seleccionados hacen de cada bocado una experiencia única. Compartir un plato de locro es más que alimentarse, es celebrar la cultura y el amor por la comida argentina. Disfruta de este manjar en compañía de tus seres queridos y déjate cautivar por su delicioso sabor y su espíritu festivo. ¡Brinda y celebra con un plato de locro!",
       "id": 1
     },
     {
-      "nombreReceta": "asado",
+      "nombreReceta": "Asado",
       "categoria": "carnes",
       "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2023/06/asado.jpg",
-      "ingredientes": "carne y sal",
-      "preparacion": "Se debe salar la carne unas horas antes de comenzar ",
-      "descripcion": "se hace el fuego con carbon o leña en su defecro , se pone la carne y se la da vuelta cuando este saliendo sangre del lado de arriba",
+      "ingredientes": "Cortes de carne de res seleccionados (costillas, vacío, entraña, chorizo, etc.)\nSal gruesa\nOpcional: chimichurri  para acompañar",
+      "preparacion": "Prepara el fuego en la parrilla, utilizando carbón o leña, y deja que se forme una brasa caliente y pareja.\nMientras tanto, sazona los cortes de carne con sal gruesa por todos los lados. La cantidad de sal depende de tu gusto personal y la cantidad de carne que estés cocinando.\nColoca los cortes de carne en la parrilla, comenzando con las piezas más grandes y gruesas, como las costillas, y luego agregando los cortes más delgados, como el chorizo y la entraña. Colócalos con el lado de la grasa hacia abajo para ayudar a sellar los jugos.\nCocina el asado a fuego lento, volteando los cortes ocasionalmente para asegurar una cocción uniforme. La duración de la cocción dependerá del grosor de la carne y de tu preferencia de término (jugoso, medio o bien cocido). Recuerda que el secreto está en la paciencia y la atención constante.\nUna vez que los cortes de carne estén cocidos a tu gusto, retíralos de la parrilla y déjalos reposar durante unos minutos antes de cortarlos. Esto permitirá que los jugos se redistribuyan y la carne se mantenga jugosa.\nCorta los cortes de carne en porciones individuales y sirve el asado argentino caliente. Acompáñalo con chimichurri, una salsa tradicional argentina hecha a base de perejil, ajo, aceite de oliva, vinagre y especias, para realzar aún más su sabor.",
+      "descripcion": "El asado argentino es un festín culinario en el que se utilizan cortes de carne de res seleccionados, como costillas, vacío, entraña y chorizo. La clave para su delicioso sabor radica en el proceso de cocción a fuego lento sobre brasas de leña, que imparten un ahumado irresistible y una textura jugosa a la carne. El asado es un símbolo de la cultura argentina, donde se reúnen amigos y familiares para disfrutar de una comida abundante y sabrosa.",
       "id": 2
     },
     {
