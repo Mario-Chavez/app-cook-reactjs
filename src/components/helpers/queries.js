@@ -94,3 +94,27 @@ export const EditReceta = async (receta, id) => {
         console.log(error);
     }
 };
+// export const obtenerRecetaPorId = async (id) => {
+//     try {
+//       const respuesta = await fetch(URL_RECETAS+"/"+id);
+//       const receta = await respuesta.json();
+//       console.log(receta)
+//       return receta;
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   };
+
+// export const obtenerRecetaId = async (id) => {
+//     try {
+//       const respuesta = await fetch(URL_RECETAS);
+//       const datosRecetas = await respuesta.json();
+//       const recetaEncontrada = datosRecetas.recetas.find(
+//         (receta) => receta.id === parseInt(id)
+//       );
+//       return recetaEncontrada;
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   };
+  
