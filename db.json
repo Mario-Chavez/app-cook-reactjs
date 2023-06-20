@@ -2,20 +2,20 @@
   "recetas": [
     {
       "nombreReceta": "Locro",
-      "categoria": "carnes",
+      "categoria": "platosRegionales",
       "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg",
-      "ingredientes": "sal , comino, carnes, porotods, maiz",
-      "preparación": "se debe poner las verduras un dia antes ",
-      "pasos": "debe ser cocinado a fuego lento por horas",
+      "ingredientes": "500 gramos de maíz blanco partido\n400 gramos de porotos blancos\n500 gramos de carne de cerdo\n500 gramos de carne de vaca\n200 gramos de chorizo\n2 cebollas grandes\n3 dientes de ajo\n2 pimientos rojos\n1 cucharada de pimentón dulce\n1 cucharada de comino molido\nSal al gusto\nPimienta al gusto\nHojas de laurel\nAgua (suficiente para cubrir los ingredientes)",
+      "preparacion": "Remoja los porotos blancos en agua durante al menos 8 horas o durante la noche. Luego, escúrrelos y enjuágalos.\nEn una olla grande, coloca el maíz blanco y los porotos remojados. Cubre con agua abundante y lleva a ebullición. Cocina a fuego medio-alto durante unos 30 minutos hasta que los porotos estén tiernos.\nMientras tanto, corta la carne de cerdo y la carne de vaca en trozos medianos. Pela y pica las cebollas y los dientes de ajo. Corta los pimientos rojos en cubos.\nEn una sartén aparte, cocina el chorizo cortado en rodajas hasta que esté dorado. Retíralo y reserva.\nEn la misma sartén, agrega la carne de cerdo y la carne de vaca. Cocina hasta que se doren por todos lados. Luego, agrega las cebollas, los ajos y los pimientos. Cocina hasta que las cebollas estén transparentes.\nTransfiere la carne y las verduras a la olla grande con el maíz y los porotos. Mezcla bien todos los ingredientes.\nAgrega el pimentón dulce, el comino, sal, pimienta y unas hojas de laurel. Cubre todos los ingredientes con agua hasta que estén completamente sumergidos.\nReduce el fuego a medio-bajo, tapa la olla y deja cocinar el locro durante aproximadamente 2 horas o hasta que los ingredientes se hayan mezclado y formen una textura espesa y sabrosa. Remueve de vez en cuando y agrega más agua si es necesario.\nUna vez listo, retira las hojas de laurel y sirve el locro argentino caliente en platos individuales. Puedes acompañarlo con rodajas de chorizo dorado por encima.",
+      "descripcion": "El locro es un plato lleno de tradición y sabor, perfecto para celebraciones y momentos especiales junto a amigos y familiares. Su textura espesa y sus ingredientes cuidadosamente seleccionados hacen de cada bocado una experiencia única. Compartir un plato de locro es más que alimentarse, es celebrar la cultura y el amor por la comida argentina. Disfruta de este manjar en compañía de tus seres queridos y déjate cautivar por su delicioso sabor y su espíritu festivo. ¡Brinda y celebra con un plato de locro!",
       "id": 1
     },
     {
-      "nombreReceta": "asado",
+      "nombreReceta": "Asado",
       "categoria": "carnes",
       "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2023/06/asado.jpg",
-      "ingredientes": "carne y sal",
-      "preparación": "Se debe salar la carne unas horas antes de comenzar ",
-      "pasos": "se hace el fuego con carbon o leña en su defecro , se pone la carne y se la da vuelta cuando este saliendo sangre del lado de arriba",
+      "ingredientes": "Cortes de carne de res seleccionados (costillas, vacío, entraña, chorizo, etc.)\nSal gruesa\nOpcional: chimichurri  para acompañar",
+      "preparacion": "Prepara el fuego en la parrilla, utilizando carbón o leña, y deja que se forme una brasa caliente y pareja.\nMientras tanto, sazona los cortes de carne con sal gruesa por todos los lados. La cantidad de sal depende de tu gusto personal y la cantidad de carne que estés cocinando.\nColoca los cortes de carne en la parrilla, comenzando con las piezas más grandes y gruesas, como las costillas, y luego agregando los cortes más delgados, como el chorizo y la entraña. Colócalos con el lado de la grasa hacia abajo para ayudar a sellar los jugos.\nCocina el asado a fuego lento, volteando los cortes ocasionalmente para asegurar una cocción uniforme. La duración de la cocción dependerá del grosor de la carne y de tu preferencia de término (jugoso, medio o bien cocido). Recuerda que el secreto está en la paciencia y la atención constante.\nUna vez que los cortes de carne estén cocidos a tu gusto, retíralos de la parrilla y déjalos reposar durante unos minutos antes de cortarlos. Esto permitirá que los jugos se redistribuyan y la carne se mantenga jugosa.\nCorta los cortes de carne en porciones individuales y sirve el asado argentino caliente. Acompáñalo con chimichurri, una salsa tradicional argentina hecha a base de perejil, ajo, aceite de oliva, vinagre y especias, para realzar aún más su sabor.",
+      "descripcion": "El asado argentino es un festín culinario en el que se utilizan cortes de carne de res seleccionados, como costillas, vacío, entraña y chorizo. La clave para su delicioso sabor radica en el proceso de cocción a fuego lento sobre brasas de leña, que imparten un ahumado irresistible y una textura jugosa a la carne. El asado es un símbolo de la cultura argentina, donde se reúnen amigos y familiares para disfrutar de una comida abundante y sabrosa.",
       "id": 2
     },
     {
@@ -23,8 +23,8 @@
       "categoria": "pastelesyTartas",
       "imagen": "https://www.cronista.com/files/image/515/515927/6409d0d3e4766.jpg",
       "ingredientes": "papas, huevo, aceite, sal",
-      "preparación": "batir los huevos y mezclar con la papa cortada",
-      "pasos": "calentar a fuego medio en una zarten",
+      "preparacion": "batir los huevos y mezclar con la papa cortada",
+      "descripcion": "calentar a fuego medio en una zarten",
       "id": 3
     },
     {
@@ -32,8 +32,8 @@
       "categoria": "carnes",
       "imagen": "https://www.196flavors.com/wp-content/uploads/2020/03/milanesa-a-la-napolitana-1.jpeg",
       "ingredientes": "carne, queso, jamon, pan rallado",
-      "preparación": "pon todo sobre la mesa",
-      "pasos": "pidele a tu mama que lo cocine",
+      "preparacion": "pon todo sobre la mesa",
+      "descripcion": "pidele a tu mama que lo cocine",
       "id": 4
     },
     {
@@ -41,9 +41,18 @@
       "categoria": "pastas",
       "imagen": "https://www.196flavors.com/wp-content/uploads/2014/06/pizza-2.jpg",
       "ingredientes": "1 kg de harina de pan\n100 ml de aceite de oliva virgen extra\n3 cucharaditas de levadura seca activa\n5 cucharaditas de sal\n700 ml de agua tibia , aproximadamente",
-      "preparación": "En el bol de un robot de cocina o de una batidora de pie, disolver la levadura en 100 ml de agua tibia (de los 700 ml de agua tibia).",
-      "pasos": "Hornear de 15 a 20 minutos. Servir caliente",
+      "preparacion": "En el bol de un robot de cocina o de una batidora de pie, disolver la levadura en 100 ml de agua tibia (de los 700 ml de agua tibia).",
+      "descripcion": "Hornear de 15 a 20 minutos. Servir caliente",
       "id": 5
+    },
+    {
+      "nombreReceta": "Pollo asado al horno con papas y cebolla",
+      "categoria": "carnes",
+      "imagen": "https://www.guiadecocinafacil.com/wp-content/uploads/2019/10/cropped-pollo-al-horno-1-1068x601.jpg",
+      "ingredientes": "1 pollo entero o 4 muslos completos (cuartos traseros)\n4 papas medianas\n4 cebollas medianas\naceite de oliva\nsal y pimienta\nTomillo seco",
+      "preparacion": "Comenzamos pelando las papas. Una vez peladas, las cortamos en rodajas finas, de no más de 1 centímetro de grosor. Después, las ponemos como base en una bandeja para horno. Pelamos también las cebollas y las cortamos en tiras finas. La ponemos sobre la papa y salpimentamos todo.\nA continuación ponemos los muslos encima de las papas y la cebolla. Le añadimos a todo un vaso de agua y un chorrete de aceite de oliva. Así quedará mas jugoso mientras se hornea. Nos aseguramos que en el fondo de la fuente, haya siempre humedad. Así la guarnición no se va a quemar. Salpimentamos y añadimos un buen pellizco de tomillo seco a cada muslo (o al pollo completo, si has elegido la pieza completa)\nMetemos el pollo al horno a 220ºC si utilizas muslos. calor arriba y abajo. Dejamos hornear unos 30 minutos, hasta que se dore bien. Si utilizas un pollo entero, horneamos a 190ºC.\nCuando esté bien dorado, sacamos la bandeja del horno, le damos la vuelta a las piezas. Así, se cocinará el otro lado.\nInmediatamente después, volvemos a meter la bandeja dentro del horno. Finalmente dejamos cocinar aproximadamente el mismo tiempo, hasta que todo quede bien cocinado.",
+      "descripcion": "Esta elaboración es muy fácil de hacer y no requiere de mucho esfuerzo. Pero sin duda, lo mejor de todo, es lo bien que queda. Para ello voy a enseñarte algunos trucos para que la carne no quede seca a la hora de servir este plato. Además, lo que vamos a hacer va a ser cocinar esta ave con su guarnición, todo a la vez, provocando que sus propios jugos se mezclen con esta guarnición, obteniendo una receta espectacular.",
+      "id": 6
     }
   ],
   "usuarios": [

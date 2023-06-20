@@ -94,3 +94,7 @@ export const EditReceta = async (receta, id) => {
         console.log(error);
     }
 };
+
+  
+  
+  
