@@ -2,7 +2,7 @@
   <img src="https://res.cloudinary.com/mach/image/upload/v1687295125/Captura_de_pantalla_2023-06-15_160009_d7pxwu.png" alt="Captura de pantalla">
 </p>
 
-# App Cook 🧑‍🍳
+# Cook Recetas 🧑‍🍳
 
 Esta es una aplicación de recetas de cocina desarrollada con React.js, Vite, Bootstrap, React Bootstrap, JSON Server, React Bootstrap Icons, React Hook Form y SweetAlert2. Permite a los usuarios buscar y visualizar recetas, así como agregar nuevas recetas a la base de datos. Los usuarios también pueden registrarse y iniciar sesión para acceder a funciones adicionales.y
 
