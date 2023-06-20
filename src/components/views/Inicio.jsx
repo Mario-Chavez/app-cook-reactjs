@@ -6,6 +6,7 @@ import SegundoCarrusel from "../SegundoCarrusel";
 import TercerCarrusel from "../TercerCarrusel";
 import CardReceta from "./recetas/CardReceta";
 import { useEffect, useState } from 'react';
+import Banners from "../Banners";
 
 const Inicio = () => {
 
@@ -45,11 +46,12 @@ const Inicio = () => {
             </Row>
           </Col>
         </Row>
-
-        <h4 className="my-4">RECETAS</h4>
+        <hr className="bg-dark my-5" />
+        <h2 className="my-4 text-center display-5">RECETAS</h2>
         <Container>
           <CardReceta recetas={recetas}></CardReceta>
         </Container>
+        <Banners></Banners>
       </Container>
     </>
   );
