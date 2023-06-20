@@ -4,10 +4,12 @@
 
 # App Cook 🧑‍🍳
 
-Esta es una aplicación de recetas de cocina desarrollada con React.js, Vite, Bootstrap, React Bootstrap, JSON Server, React Bootstrap Icons, React Hook Form y SweetAlert2. Permite a los usuarios buscar y visualizar recetas, así como agregar nuevas recetas a la base de datos.
+Esta es una aplicación de recetas de cocina desarrollada con React.js, Vite, Bootstrap, React Bootstrap, JSON Server, React Bootstrap Icons, React Hook Form y SweetAlert2. Permite a los usuarios buscar y visualizar recetas, así como agregar nuevas recetas a la base de datos. Los usuarios también pueden registrarse y iniciar sesión para acceder a funciones adicionales.y
 
 ## Características
 
+-   Registrarse como nuevo usuario.
+-   Iniciar sesión con una cuenta existente.
 -   Visualización detallada de cada receta con información como ingredientes, instrucciones y tiempo de preparación.
 -   Agregar nuevas recetas a la base de datos.
 -   Interfaz de usuario intuitiva y receptiva gracias a Bootstrap y React Bootstrap.
