@@ -37,10 +37,10 @@ const Inicio = () => {
           </Col>
           <Col sm={5} md={4} className="mx-0">
             <Row>
-              <Col md={12} className="px-0">
+              <Col xs={6} sm={12} md={12} className="px-0">
                 <SegundoCarrusel></SegundoCarrusel>
               </Col>
-              <Col md={12} className="px-0">
+              <Col xs={6} sm={12} md={12} className="px-0">
                 <TercerCarrusel></TercerCarrusel>
               </Col>
             </Row>
