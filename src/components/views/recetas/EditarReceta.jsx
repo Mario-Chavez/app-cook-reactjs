@@ -21,8 +21,8 @@ const EditarReceta = () => {
                 setValue("categoria", resp.categoria);
                 setValue("imagen", resp.imagen);
                 setValue("ingredientes", resp.ingredientes);
-                setValue("pasos", resp.pasos);
-                setValue("preparación", resp.preparación);
+                setValue("preparacion", resp.preparacion);
+                setValue("descripcion", resp.descripcion);
             }
         });
     }, []);
@@ -67,7 +67,7 @@ const EditarReceta = () => {
                                     "El nombre de la receta debe tener como minimo 2 caracteres",
                             },
                             maxLength: {
-                                value: 20,
+                                value: 50,
                                 message:
                                     "El nombre de la receta debe tener como maximo 20 caracteres",
                             },
@@ -135,7 +135,7 @@ const EditarReceta = () => {
                     <Form.Label>Ingredientes*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                       rows={3}
                         {...register("ingredientes", {
                             required: "este campo es obligatorio",
                             minLength: {
@@ -144,9 +144,9 @@ const EditarReceta = () => {
                                     "Los ingredientes debe tener como minimo 8 caracteres",
                             },
                             maxLength: {
-                                value: 400,
+                                value: 600,
                                 message:
-                                    "Los ingredientes debe tener  como maximo 400 caracteres",
+                                    "Los ingredientes debe tener  como maximo 600 caracteres",
                             },
                         })}
                     ></Form.Control>
@@ -159,9 +159,9 @@ const EditarReceta = () => {
                     <Form.Label>Preparación*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
+                       rows={3}
                         placeholder="Pasos a seguir Ej. Cortar las verduras ..."
-                        {...register("preparación", {
+                        {...register("preparacion", {
                             required: "este campo es obligatorio",
                             minLength: {
                                 value: 8,
@@ -169,37 +169,37 @@ const EditarReceta = () => {
                                     "La preparacion debe tener como minimo 8 caracteres",
                             },
                             maxLength: {
-                                value: 400,
+                                value: 2000,
                                 message:
-                                    "La preparacion debe tener  como maximo 400 caracteres",
+                                    "La preparacion debe tener  como maximo 2000 caracteres",
                             },
                         })}
                     ></Form.Control>
                     <Form.Text className="text-danger">
-                        {errors.preparación?.message}
+                        {errors.preparacion?.message}
                     </Form.Text>
                 </Form.Group>
 
                 <Form.Group className="mb-3">
-                    <Form.Label>Como se hace*</Form.Label>
+                    <Form.Label>Descripción*</Form.Label>
                     <Form.Control
                         as="textarea"
-                        roxs={3}
-                        placeholder="Pasos a seguir Ej. horno a 100ºC ..."
-                        {...register("pasos", {
+                       rows={3}
+                        placeholder="Breve descripción de la receta"
+                        {...register("descripcion", {
                             required: "este campo es obligatorio",
                             minLength: {
                                 value: 8,
                                 message: "Este campo debe tener como minimo 8 caracteres",
                             },
                             maxLength: {
-                                value: 400,
+                                value: 1000,
                                 message:
-                                    "Este campo debe tener  como maximo 400 caracteres",
+                                    "Este campo debe tener  como maximo 1000 caracteres",
                             },
                         })}
                     ></Form.Control>
-                    <Form.Text className="text-danger">{errors.pasos?.message}</Form.Text>
+                    <Form.Text className="text-danger">{errors.descripcion?.message}</Form.Text>
                 </Form.Group>
 
                 <Form.Group>

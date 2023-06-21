@@ -53,7 +53,7 @@ const ItemReceta = ({ receta, setRecetas }) => {
             <td>{receta.nombreReceta}</td>
             <td>{receta.categoria}</td>
             <td>{receta.ingredientes}</td>
-            <td>{receta.preparación}</td>
+            <td>{receta.preparacion}</td>
             <td>
                 <Link
                     to={`/administrador/editar/${receta.id}`}
