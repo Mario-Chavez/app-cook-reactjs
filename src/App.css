@@ -65,8 +65,12 @@ background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba
     object-fit: cover;
    }
 
+   .img-footer{
+    height: 120px;
+   }
+
 }
-@media all and (min-width: 575px)and (max-width: 768px){
+@media all and (min-width: 575px)and (max-width: 767px){
   .img-responsive{
     height: 270px;
     object-fit: cover;
@@ -81,6 +85,9 @@ background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba
     width: 100%;
     height: 340px;
     object-fit: cover;
+   }
+   .img-footer{
+    height: 150px;
    }
 
 
@@ -102,5 +109,8 @@ background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba
     width: 100%;
     height: 330px;
     object-fit: cover;
+   }
+   .img-footer{
+    height: 170px;
    }
 } 
