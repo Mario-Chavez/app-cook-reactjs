@@ -7,22 +7,15 @@ import TercerCarrusel from "../TercerCarrusel";
 import CardReceta from "./recetas/CardReceta";
 import { useEffect, useState } from "react";
 import Banners from "../Banners";
+import { obtenerRecetas } from "../helpers/queries";
 
 const Inicio = () => {
     const [recetas, setRecetas] = useState([]);
 
     useEffect(() => {
-        const obtenerRecetas = async () => {
-            try {
-                const respuesta = await fetch("../db.json");
-                const datosRecetas = await respuesta.json();
-                setRecetas(datosRecetas.recetas);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-
-        obtenerRecetas();
+        obtenerRecetas().then((resp) => {
+            setRecetas(resp);
+        });
     }, []);
 
     return (
