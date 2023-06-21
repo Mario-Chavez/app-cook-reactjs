@@ -39,16 +39,16 @@ const Administrador = () => {
                 </div>
             </div>
             <hr />
-            <div className="table-responsive-sm">
+            <div className="table-responsive">
                 <table className="table">
                     <thead>
                         <tr>
-                            <th scope="col">Codigo</th>
-                            <th scope="col">Nombre Receta</th>
-                            <th scope="col">categoria</th>
-                            <th scope="col">Ingredientes</th>
-                            <th scope="col">Preparación</th>
-                            <th scope="col">Opciones</th>
+                            <th className="text-truncate" scope="col">Codigo</th>
+                            <th className="text-truncate" scope="col">Nombre Receta</th>
+                            <th className="text-truncate" scope="col">categoria</th>
+                            <th className="text-truncate" scope="col">Ingredientes</th>
+                            <th className="text-truncate" scope="col">Preparación</th>
+                            <th className="text-truncate" scope="col">Opciones</th>
                         </tr>
                     </thead>
                     <tbody>

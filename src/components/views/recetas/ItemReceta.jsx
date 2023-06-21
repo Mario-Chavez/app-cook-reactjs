@@ -50,10 +50,10 @@ const ItemReceta = ({ receta, setRecetas }) => {
     return (
         <tr>
             <td># {receta.id}</td>
-            <td>{receta.nombreReceta}</td>
-            <td>{receta.categoria}</td>
-            <td>{receta.ingredientes}</td>
-            <td>{receta.preparacion}</td>
+            <td className="text-truncate">{receta.nombreReceta}</td>
+            <td className="text-truncate">{receta.categoria}</td>
+            <td className="text-truncate">{receta.ingredientes}</td>
+            <td className="text-truncate">{receta.preparacion}</td>
             <td>
                 <Link
                     to={`/administrador/editar/${receta.id}`}
