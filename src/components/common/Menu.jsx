@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Navbar, Nav, Button } from "react-bootstrap";
+import { Container, Navbar, Nav, Button, Image } from "react-bootstrap";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import logo from "../../assets/logo-cook-min1.png";
 
 const Menu = ({ usuarioLogeado, setUsuarioLogeado }) => {
     const navegacion = useNavigate();
 
     const logOut = () => {
         sessionStorage.removeItem("usuario");
-        /* seguir aqui */
         setUsuarioLogeado({});
         navegacion("/");
     };
@@ -15,7 +15,7 @@ const Menu = ({ usuarioLogeado, setUsuarioLogeado }) => {
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container fluid>
                 <Navbar.Brand as={Link} to={"/"}>
-                    Logo de la app
+                    <Image src={logo} rounded className="w-75 " />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
@@ -29,29 +29,48 @@ const Menu = ({ usuarioLogeado, setUsuarioLogeado }) => {
                         style={{ maxHeight: "100px" }}
                         navbarScroll
                     >
-                        <NavLink end className={"nav-item nav-link"} to={"/"}>
+                        <NavLink
+                            end
+                            className={"nav-item nav-link text-warning fs-4"}
+                            to={"/"}
+                        >
                             Inicio
-                        </NavLink>
-                        <NavLink end className={"nav-item nav-link"} to={"/registro"}>
-                            Registro
                         </NavLink>
                         {usuarioLogeado.email ? (
                             <>
                                 <NavLink
                                     end
-                                    className={"nav-item nav-link"}
+                                    className={"nav-item nav-link text-warning fs-4"}
                                     to={"/administrador"}
                                 >
                                     Administrador
                                 </NavLink>
-                                <Button variant="dark" onClick={logOut}>
+                                <Button
+                                    variant="warning"
+                                    className=" fs-4"
+                                    onClick={logOut}
+                                >
                                     Logout
                                 </Button>
                             </>
                         ) : (
-                            <NavLink end className={"nav-item nav-link"} to={"/login"}>
-                                Login
-                            </NavLink>
+                            <>
+                                {" "}
+                                <NavLink
+                                    end
+                                    className={"nav-item nav-link text-warning fs-4"}
+                                    to={"/registro"}
+                                >
+                                    Registro
+                                </NavLink>
+                                <NavLink
+                                    end
+                                    className={"nav-item nav-link text-warning fs-4"}
+                                    to={"/login"}
+                                >
+                                    Login
+                                </NavLink>
+                            </>
                         )}
                     </Nav>
                 </Navbar.Collapse>

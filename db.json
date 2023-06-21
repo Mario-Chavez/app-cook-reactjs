@@ -1,14 +1,77 @@
 {
   "recetas": [
     {
-      "id": 1,
       "nombreReceta": "Locro",
-      "categoria": "Platos regionales",
-      "ingredientes":"sal , comino, carnes, porotods, maiz",
-      "descripcion": "debe ser cocinado a fuego lento por horas",
-      "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg"
+      "categoria": "platosRegionales",
+      "imagen": "https://www.lanacion.com.ar/resizer/r56Kds7Ko8G3dBPkYc2GbgMutXA=/309x206/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/FYF74VQQ5FF2HBH53E2DCOQU74.jpg",
+      "ingredientes": "500 gramos de maíz blanco partido\n400 gramos de porotos blancos\n500 gramos de carne de cerdo\n500 gramos de carne de vaca\n200 gramos de chorizo\n2 cebollas grandes\n3 dientes de ajo\n2 pimientos rojos\n1 cucharada de pimentón dulce\n1 cucharada de comino molido\nSal al gusto\nPimienta al gusto\nHojas de laurel\nAgua (suficiente para cubrir los ingredientes)",
+      "preparacion": "Remoja los porotos blancos en agua durante al menos 8 horas o durante la noche. Luego, escúrrelos y enjuágalos.\nEn una olla grande, coloca el maíz blanco y los porotos remojados. Cubre con agua abundante y lleva a ebullición. Cocina a fuego medio-alto durante unos 30 minutos hasta que los porotos estén tiernos.\nMientras tanto, corta la carne de cerdo y la carne de vaca en trozos medianos. Pela y pica las cebollas y los dientes de ajo. Corta los pimientos rojos en cubos.\nEn una sartén aparte, cocina el chorizo cortado en rodajas hasta que esté dorado. Retíralo y reserva.\nEn la misma sartén, agrega la carne de cerdo y la carne de vaca. Cocina hasta que se doren por todos lados. Luego, agrega las cebollas, los ajos y los pimientos. Cocina hasta que las cebollas estén transparentes.\nTransfiere la carne y las verduras a la olla grande con el maíz y los porotos. Mezcla bien todos los ingredientes.\nAgrega el pimentón dulce, el comino, sal, pimienta y unas hojas de laurel. Cubre todos los ingredientes con agua hasta que estén completamente sumergidos.\nReduce el fuego a medio-bajo, tapa la olla y deja cocinar el locro durante aproximadamente 2 horas o hasta que los ingredientes se hayan mezclado y formen una textura espesa y sabrosa. Remueve de vez en cuando y agrega más agua si es necesario.\nUna vez listo, retira las hojas de laurel y sirve el locro argentino caliente en platos individuales. Puedes acompañarlo con rodajas de chorizo dorado por encima.",
+      "descripcion": "El locro es un plato lleno de tradición y sabor, perfecto para celebraciones y momentos especiales junto a amigos y familiares. Su textura espesa y sus ingredientes cuidadosamente seleccionados hacen de cada bocado una experiencia única. Compartir un plato de locro es más que alimentarse, es celebrar la cultura y el amor por la comida argentina. Disfruta de este manjar en compañía de tus seres queridos y déjate cautivar por su delicioso sabor y su espíritu festivo. ¡Brinda y celebra con un plato de locro!",
+      "id": 1
+    },
+    {
+      "nombreReceta": "Asado",
+      "categoria": "carnes",
+      "imagen": "https://www.rionegro.com.ar/wp-content/uploads/2023/06/asado.jpg",
+      "ingredientes": "Cortes de carne de res seleccionados (costillas, vacío, entraña, chorizo, etc.)\nSal gruesa\nOpcional: chimichurri  para acompañar",
+      "preparacion": "Prepara el fuego en la parrilla, utilizando carbón o leña, y deja que se forme una brasa caliente y pareja.\nMientras tanto, sazona los cortes de carne con sal gruesa por todos los lados. La cantidad de sal depende de tu gusto personal y la cantidad de carne que estés cocinando.\nColoca los cortes de carne en la parrilla, comenzando con las piezas más grandes y gruesas, como las costillas, y luego agregando los cortes más delgados, como el chorizo y la entraña. Colócalos con el lado de la grasa hacia abajo para ayudar a sellar los jugos.\nCocina el asado a fuego lento, volteando los cortes ocasionalmente para asegurar una cocción uniforme. La duración de la cocción dependerá del grosor de la carne y de tu preferencia de término (jugoso, medio o bien cocido). Recuerda que el secreto está en la paciencia y la atención constante.\nUna vez que los cortes de carne estén cocidos a tu gusto, retíralos de la parrilla y déjalos reposar durante unos minutos antes de cortarlos. Esto permitirá que los jugos se redistribuyan y la carne se mantenga jugosa.\nCorta los cortes de carne en porciones individuales y sirve el asado argentino caliente. Acompáñalo con chimichurri, una salsa tradicional argentina hecha a base de perejil, ajo, aceite de oliva, vinagre y especias, para realzar aún más su sabor.",
+      "descripcion": "El asado argentino es un festín culinario en el que se utilizan cortes de carne de res seleccionados, como costillas, vacío, entraña y chorizo. La clave para su delicioso sabor radica en el proceso de cocción a fuego lento sobre brasas de leña, que imparten un ahumado irresistible y una textura jugosa a la carne. El asado es un símbolo de la cultura argentina, donde se reúnen amigos y familiares para disfrutar de una comida abundante y sabrosa.",
+      "id": 2
+    },
+    {
+      "nombreReceta": "Tortilla de papa",
+      "categoria": "pastelesyTartas",
+      "imagen": "https://www.cronista.com/files/image/515/515927/6409d0d3e4766.jpg",
+      "ingredientes": "4-5 papas medianas\n1 cebolla grande\n4-5 huevos\nSal al gusto\nAceite de oliva (para freír las papas y la cebolla)",
+      "preparacion": "Pela las papas y córtalas en rodajas finas. También corta la cebolla en rodajas finas.\nEn una sartén grande, calienta una buena cantidad de aceite de oliva a fuego medio. Agrega las papas y la cebolla a la sartén y fríelas hasta que estén doradas y tiernas. Asegúrate de revolver ocasionalmente para que se cocinen de manera uniforme y no se quemen.\nUna vez que las papas y la cebolla estén doradas, retíralas de la sartén y escúrrelas en papel absorbente para eliminar el exceso de aceite.\nEn un bol aparte, bate los huevos y sazónalos con sal al gusto.\nAgrega las papas y la cebolla fritas al bol con los huevos batidos. Mezcla bien todos los ingredientes hasta que estén completamente integrados.\nEn una sartén más pequeña, calienta una cucharada de aceite de oliva a fuego medio-bajo. Vierte la mezcla de papas, cebolla y huevos en la sartén y extiéndela uniformemente.\nCocina la tortilla durante unos minutos, hasta que los bordes se empiecen a dorar y la parte inferior esté firme. Luego, con ayuda de un plato, voltear la tortilla para cocinar el otro lado. Para hacerlo, coloca el plato sobre la sartén y dale la vuelta con cuidado, luego desliza la tortilla nuevamente a la sartén.\nContinúa cocinando la tortilla durante unos minutos más, hasta que esté completamente cocida y dorada por ambos lados.\nRetira la tortilla de papas de la sartén y déjala reposar unos minutos antes de cortarla en porciones.",
+      "descripcion": "La tortilla de papas es un plato tradicional y muy popular en la cocina española. Consiste en una mezcla de papas cortadas en rodajas y huevos batidos, que se cocinan en una sartén hasta que la tortilla se dore por fuera y quede tierna y jugosa por dentro. La tortilla de papas es versátil y se puede disfrutar tanto caliente como fría. Es un plato reconfortante y sabroso que puede servirse en cualquier momento del día.",
+      "id": 3
+    },
+    {
+      "nombreReceta": "Milanesa Napolitana",
+      "categoria": "carnes",
+      "imagen": "https://www.196flavors.com/wp-content/uploads/2020/03/milanesa-a-la-napolitana-1.jpeg",
+      "ingredientes": "Milanesas de carne (puedes usar carne de res o pollo)\nPan rallado\nHuevos batidos\nSal al gusto\nAceite vegetal (para freír las milanesas)\nSalsa de tomate (casera o comprada)\nRodajas de jamón\nQueso mozzarella o queso tipo provolone (recomendado)",
+      "preparacion": "Prepara las milanesas de carne: sazona las milanesas con sal al gusto. Luego, pasa cada milanesa por huevo batido y después por pan rallado, asegurándote de cubrirlas completamente.\nCalienta una cantidad generosa de aceite vegetal en una sartén grande a fuego medio-alto. Coloca las milanesas empanizadas en la sartén y fríelas hasta que estén doradas por ambos lados. Retíralas y colócalas sobre papel absorbente para eliminar el exceso de grasa.\nPrecalienta el horno a una temperatura de 180°C (350°F).\nEn una fuente apta para horno, coloca las milanesas fritas en una sola capa. Cubre cada milanesa con una capa de salsa de tomate, luego agrega rodajas de jamón y cubre todo con rodajas de queso.\nLleva la fuente al horno precalentado y hornea durante aproximadamente 10-15 minutos, o hasta que el queso esté derretido y ligeramente dorado.\nRetira la fuente del horno y sirve las milanesas a la napolitana calientes. Puedes acompañarlas con papas fritas, puré de papas o una ensalada fresca.",
+      "descripcion": "La milanesa a la napolitana es un plato delicioso y contundente que combina la tradicional milanesa con sabores italianos. Disfruta de su combinación de sabores y texturas, y sorprende a tus invitados con esta deliciosa opción culinaria argentina.",
+      "id": 4
+    },
+    {
+      "nombreReceta": "Pizza",
+      "categoria": "pastas",
+      "imagen": "https://www.196flavors.com/wp-content/uploads/2014/06/pizza-2.jpg",
+      "ingredientes": "500 gramos de harina de trigo\n325 ml de agua tibia\n2 cucharaditas de levadura seca\n1 cucharadita de sal\n1 cucharada de aceite\nSalsa de tomate (casera o comprada)\nQueso mozzarella rallado\nIngredientes adicionales de tu elección, como pepperoni, champiñones, cebolla, jamón, pimientos, aceitunas, etc.",
+      "preparacion": "En un recipiente grande, mezcla la levadura seca con agua tibia y deja reposar durante 5 minutos hasta que se active.\nAgrega la harina y la sal a la mezcla de levadura. Amasa todos los ingredientes hasta obtener una masa suave y elástica. Si la masa está demasiado pegajosa, puedes agregar un poco más de harina.\nForma una bola con la masa y colócala en un recipiente ligeramente engrasado con aceite de oliva. Cubre el recipiente con un paño limpio y deja que la masa repose y suba durante aproximadamente 1 hora, o hasta que duplique su tamaño.\nPrecalienta el horno a una temperatura de 220°C (425°F).\nUna vez que la masa haya reposado y haya aumentado su tamaño, divídela en porciones según el tamaño de las pizzas que deseas hacer. Estira cada porción de masa en una superficie enharinada para formar la base de la pizza. Puedes darle forma redonda o rectangular, según tus preferencias.\nColoca las bases de pizza en una bandeja para horno o una piedra de pizza y añade la salsa de tomate sobre cada una de ellas, extendiéndola de manera uniforme.\nAgrega el queso mozzarella rallado y los ingredientes adicionales de tu elección. Puedes ser creativo y combinar diferentes sabores y texturas.\nHornea las pizzas en el horno precalentado durante aproximadamente 12-15 minutos, o hasta que la masa esté dorada y crujiente, y el queso esté derretido y burbujeante.\nRetira las pizzas del horno y déjalas reposar unos minutos antes de cortarlas en porciones. Esto permitirá que los sabores se asienten y la pizza sea más fácil de manejar.",
+      "descripcion": "La pizza es una preparación culinaria que consiste en una base de masa de harina, cubierta con salsa de tomate y una variedad de ingredientes, como queso, vegetales, carnes y hierbas aromáticas. Es un plato versátil que se puede adaptar a diferentes gustos y preferencias, permitiéndote crear combinaciones únicas y sabrosas.",
+      "id": 5
+    },
+    {
+      "nombreReceta": "Pollo asado al horno con papas y cebolla",
+      "categoria": "carnes",
+      "imagen": "https://www.guiadecocinafacil.com/wp-content/uploads/2019/10/cropped-pollo-al-horno-1-1068x601.jpg",
+      "ingredientes": "1 pollo entero o 4 muslos completos (cuartos traseros)\n4 papas medianas\n4 cebollas medianas\naceite de oliva\nsal y pimienta\nTomillo seco",
+      "preparacion": "Comenzamos pelando las papas. Una vez peladas, las cortamos en rodajas finas, de no más de 1 centímetro de grosor. Después, las ponemos como base en una bandeja para horno. Pelamos también las cebollas y las cortamos en tiras finas. La ponemos sobre la papa y salpimentamos todo.\nA continuación ponemos los muslos encima de las papas y la cebolla. Le añadimos a todo un vaso de agua y un chorrete de aceite de oliva. Así quedará mas jugoso mientras se hornea. Nos aseguramos que en el fondo de la fuente, haya siempre humedad. Así la guarnición no se va a quemar. Salpimentamos y añadimos un buen pellizco de tomillo seco a cada muslo (o al pollo completo, si has elegido la pieza completa)\nMetemos el pollo al horno a 220ºC si utilizas muslos. calor arriba y abajo. Dejamos hornear unos 30 minutos, hasta que se dore bien. Si utilizas un pollo entero, horneamos a 190ºC.\nCuando esté bien dorado, sacamos la bandeja del horno, le damos la vuelta a las piezas. Así, se cocinará el otro lado.\nInmediatamente después, volvemos a meter la bandeja dentro del horno. Finalmente dejamos cocinar aproximadamente el mismo tiempo, hasta que todo quede bien cocinado.",
+      "descripcion": "Esta elaboración es muy fácil de hacer y no requiere de mucho esfuerzo. Pero sin duda, lo mejor de todo, es lo bien que queda. Para ello voy a enseñarte algunos trucos para que la carne no quede seca a la hora de servir este plato. Además, lo que vamos a hacer va a ser cocinar esta ave con su guarnición, todo a la vez, provocando que sus propios jugos se mezclen con esta guarnición, obteniendo una receta espectacular.",
+      "id": 6
+    },
+    {
+      "nombreReceta": "Flan",
+      "categoria": "pastelesyTartas",
+      "imagen": "https://i.pinimg.com/564x/5a/52/bf/5a52bf65691fc38d85048924171ca5e2.jpg",
+      "ingredientes": "4 huevos\n1 lata de leche condensada (397 gramos)\n2 tazas de leche entera\n1 cucharadita de esencia de vainilla\n1 taza de azúcar (para el caramelo líquido)",
+      "preparacion": "Prepara el caramelo líquido: en una cacerola pequeña, coloca el azúcar y caliéntalo a fuego medio-bajo, sin revolver. Deja que se derrita y se forme un caramelo dorado. Cuando el caramelo esté listo, viértelo rápidamente en el fondo de un molde para flan, asegurándote de cubrir todo el fondo.\nEn un bol grande, bate los huevos hasta que estén bien mezclados. Luego, agrega la leche condensada, la leche entera y la esencia de vainilla. Continúa batiendo hasta obtener una mezcla homogénea.\nVierte la mezcla de flan en el molde caramelizado, sobre el caramelo líquido.\nColoca el molde para flan dentro de una fuente o bandeja para horno más grande. Llena la fuente con agua caliente, hasta que llegue a la mitad de la altura del molde para flan. Esto se conoce como baño María y ayudará a que el flan se cocine de manera uniforme.\nPrecalienta el horno a una temperatura de 180°C (350°F).\nLleva el molde con el flan al horno precalentado y hornea durante aproximadamente 50-60 minutos, o hasta que al insertar un palillo en el centro del flan, este salga limpio.\nUna vez que el flan esté cocido, retíralo del horno y déjalo enfriar a temperatura ambiente. Luego, refrigéralo en el molde durante al menos 2 horas, o preferiblemente durante la noche, para que se enfríe y tome consistencia.\nPara desmoldar el flan, pasa un cuchillo alrededor del borde del molde para despegarlo. Coloca un plato grande boca abajo sobre el molde y, con un movimiento rápido y cuidadoso, da la vuelta al molde para que el flan caiga sobre el plato.\nSirve el flan frío, acompañado del caramelo líquido que se formó en el fondo del molde.",
+      "descripcion": "El flan es un postre clásico compuesto principalmente de huevos, leche y azúcar. Su textura es suave y sedosa, y se sirve bañado en un caramelo líquido que le aporta un sabor dulce y caramelizado. Es un postre sencillo pero exquisito que se puede disfrutar solo o acompañado de frutas frescas o crema batida.",
+      "id": 7
+    },
+    {
+      "nombreReceta": "Lemon Pie",
+      "categoria": "pastelesyTartas",
+      "imagen": "https://www.paulinacocina.net/wp-content/uploads/2023/02/pay-de-limon.jpg",
+      "ingredientes": "200 gramos de galletas tipo María o vainilla\n100 gramos de mantequilla derretida\n4 yemas de huevo\n1 lata de leche condensada (397 gramos)\nZumo y ralladura de 3 limones grandes\n1 cucharadita de maicena (opcional, para dar consistencia)\nMerengue o crema batida\nRalladura de limón",
+      "preparacion": "Tritura las galletas en un procesador de alimentos o colócalas en una bolsa y machácalas con un rodillo hasta obtener migas finas. Mezcla las migas de galleta con la mantequilla derretida hasta que estén bien combinadas.\nCubre el fondo y los lados de un molde para tarta con la mezcla de galleta y presiona firmemente con la ayuda de una cuchara o el dorso de una cuchara para compactar la base. Refrigera la base de la tarta durante al menos 30 minutos para que se endurezca.\nMientras tanto, prepara el relleno. En un bol, mezcla las yemas de huevo con la leche condensada hasta obtener una mezcla suave y homogénea. Agrega el zumo y la ralladura de limón y mezcla bien. Si deseas una consistencia más firme, puedes añadir una cucharadita de maicena y mezclar.\nVierte la mezcla de relleno sobre la base de galleta enfriada y extiéndela de manera uniforme.\nLleva la tarta al horno precalentado a 180°C (350°F) y hornea durante aproximadamente 15-20 minutos, o hasta que el relleno esté firme y ligeramente dorado en los bordes.\nRetira la tarta del horno y deja que se enfríe a temperatura ambiente. Luego, refrigérala durante al menos 2 horas, o preferiblemente durante la noche, para que el relleno adquiera una consistencia firme.\nSi deseas decorar la tarta, puedes cubrir la superficie con merengue o crema batida y espolvorear con ralladura de limón.\nSirve el Lemon Pie frío y disfruta de su sabor refrescante y dulce.",
+      "descripcion": "El Lemon Pie es una tarta compuesta por una base de masa quebrada crujiente y un relleno de crema de limón suave y dulce. Se suele servir frío, decorado con merengue o crema batida, y es perfecto para disfrutar en días cálidos o como postre después de una comida. El contraste entre la acidez del limón y la dulzura de la crema lo convierte en un postre irresistible.",
+      "id": 8
     }
-    
   ],
   "usuarios": [
     {
@@ -16,6 +79,66 @@
       "nombreUsuario": "admin",
       "email": "admin@gmail.com",
       "password": "A12345i"
+    },
+    {
+      "nombreUsuario": "mario",
+      "email": "mario@gmail.com",
+      "password": "A1mario",
+      "id": 2
+    },
+    {
+      "nombreUsuario": "Ana Rocha",
+      "email": "anarocha1@gmail.com",
+      "password": "A1anarocha",
+      "id": 3
+    },
+    {
+      "nombreUsuario": "Ana Rocha",
+      "email": "anarocha1@gmail.com",
+      "password": "A1anarocha",
+      "id": 4
+    },
+    {
+      "nombreUsuario": "tadeo muñoz",
+      "email": "tadeomunoz@gmail.com",
+      "password": "A1tadeo",
+      "id": 5
+    },
+    {
+      "nombreUsuario": "tadeo muñoz",
+      "email": "tadeomunoz@gmail.com",
+      "password": "A1tadeo",
+      "id": 6
+    },
+    {
+      "nombreUsuario": "mario alberto chavez",
+      "email": "mariochavez2@gmail.com",
+      "password": "A1chavez2",
+      "id": 7
+    },
+    {
+      "nombreUsuario": "pepe argento",
+      "email": "pepe@gmail.com",
+      "password": "A1pepe",
+      "id": 8
+    },
+    {
+      "nombreUsuario": "Mario chavez",
+      "email": "mariochavez@gmail.com",
+      "password": "A1marito",
+      "id": 9
+    },
+    {
+      "nombreUsuario": "anasoledad",
+      "email": "anasoledad@gmail.com",
+      "password": "123Ana",
+      "id": 10
+    },
+    {
+      "nombreUsuario": "teomunoz99",
+      "email": "teomunoz99@gmail.com",
+      "password": "Tadeo1345",
+      "id": 11
     }
   ]
 }
