@@ -45,4 +45,4 @@ Sigue estos pasos para configurar el proyecto en tu entorno local:
 
 ## ¡Visita nuestro sitio Aqui!
 
-[Noticias](https://noticias-con-react.netlify.app/)
+[<img src="https://res.cloudinary.com/mach/image/upload/v1687295680/logo-cook-min1_musb9x.png" alt="Captura de pantalla" width="40px"> Cook Recetas](https://cook-recetas.netlify.app)
