@@ -48,6 +48,9 @@ background: radial-gradient(circle, rgba(195,226,28,0.8827906162464986) 0%, rgba
   padding-bottom: 0!important;
  }
 
+ .table{
+  table-layout: fixed;
+}
 
  @media all and (max-width: 575px){
   .img-responsive{
