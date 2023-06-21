@@ -13,18 +13,7 @@ const Inicio = () => {
     const [recetas, setRecetas] = useState([]);
 
     useEffect(() => {
-        // const obtenerRecetas = async () => {
-        //     try {
-        //         const respuesta = await fetch("../db.json");
-        //         const datosRecetas = await respuesta.json();
-        //         setRecetas(datosRecetas.recetas);
-        //     } catch (error) {
-        //         console.log(error);
-        //     }
-        // };
-
         obtenerRecetas().then((resp) => {
-            console.log("tengo respuesta", resp);
             setRecetas(resp);
         });
     }, []);
